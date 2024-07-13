@@ -5,15 +5,15 @@ import { ArticleRead } from "../pages/ArticleRead";
 import { Profile } from "../pages/Profile";
 import { Settings } from "../pages/Settings";
 import { SignIn } from "../pages/SignIn";
+import { routes } from "../shared";
 
 const RoutesList = [
-  { path: "/", element: <Home /> },
-  { path: "/article-edit", element: <ArticleEdit /> },
-  { path: "/article", element: <ArticleRead /> },
-  { path: "/article-edit", element: <ArticleEdit /> },
-  { path: "/profile", element: <Profile /> },
-  { path: "/settings", element: <Settings /> },
-  { path: "/sign-in", element: <SignIn /> },
+  { path: routes.Home, element: <Home /> },
+  { path: routes.ArticleEdit, element: <ArticleEdit /> },
+  { path: routes.Article, element: <ArticleRead /> },
+  { path: routes.Profile, element: <Profile /> },
+  { path: routes.Settings, element: <Settings /> },
+  { path: routes.SignIn, element: <SignIn /> },
 ];
 
 export const AppRouter = () => {
