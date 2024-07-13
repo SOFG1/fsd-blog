@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "../pages/Home/Home";
-import { ArticleEdit } from "../pages/ArticleEdit/ArticleEdit";
-import { ArticleRead } from "../pages/ArticleRead/ArticleRead";
-import { Profile } from "../pages/Profile/Profile";
-import { Settings } from "../pages/Settings/Settings";
-import { SignIn } from "../pages/SignIn/SignIn";
+import { Home } from "../pages/Home";
+import { ArticleEdit } from "../pages/ArticleEdit";
+import { ArticleRead } from "../pages/ArticleRead";
+import { Profile } from "../pages/Profile";
+import { Settings } from "../pages/Settings";
+import { SignIn } from "../pages/SignIn";
 
 const RoutesList = [
   { path: "/", element: <Home /> },
