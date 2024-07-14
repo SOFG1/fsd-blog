@@ -1,7 +1,7 @@
-import { Providers } from "./Providers";
-import { AppRouter } from "./AppRouter";
+import Providers from "./providers";
+import AppRouter from "./router";
 import "./ui/main.css";
-import { Layout } from "./Layout";
+import Layout from "./layout";
 
 function App() {
   return (

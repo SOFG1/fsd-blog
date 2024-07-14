@@ -1,4 +1,4 @@
-import { Header } from "../shared";
+import { Header } from "../../shared";
 
 export const Layout = ({ children }: any) => {
   return (
