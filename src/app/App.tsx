@@ -1,11 +1,14 @@
 import { Providers } from "./Providers";
 import { AppRouter } from "./AppRouter";
 import "./ui/main.css";
+import { Layout } from "./Layout";
 
 function App() {
   return (
     <Providers>
-      <AppRouter />
+      <Layout>
+        <AppRouter />
+      </Layout>
     </Providers>
   );
 }
